@@ -1,0 +1,16 @@
+#
+# mysql docker image
+#
+
+# Base Image
+FROM mysql:5.6
+
+# Author
+MAINTAINER Sandeep M <smukk9@gmail.com>
+
+#Environment variables
+ENV MYSQL_DATABASE=charityfoundation
+ENV MYSQL_USER=aaf
+ENV MYSQL_PASSWORD=root
+ENV MYSQL_ROOT_PASSWORD=root
+
